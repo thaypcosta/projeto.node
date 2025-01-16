@@ -31,7 +31,7 @@ app.post('/api/v1/chat', async (req, res) => {
 
     res.json(result); // Retorna a resposta para o cliente
   } catch (error) {
-    res.status(500).json({ error: "errormessage" }); // Retorna erros caso algo falhe
+    res.status(500).json({ error: "error message" }); // Retorna erros caso algo falhe
   }
 });
 
